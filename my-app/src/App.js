@@ -8,11 +8,11 @@ import SearchBar from './components/SearchBar';
 function App() {
   return (
     <div className={css.App}>
-      {/* <Sidebar /> */}
+      <Sidebar />
       {/* <NavBarSimple /> */}
-      {/* <NavBarForm /> */}
-      {/* <Content /> */}
-      <SearchBar />
+      <NavBarForm />
+      <Content />
+      {/* <SearchBar /> */}
     </div>
   );
 }
